@@ -1,4 +1,4 @@
-#  A deep dive into the Arrow Columnar format with pyarrow and nanoarrow
+# A deep dive into the Arrow Columnar format with pyarrow and nanoarrow
 
 Repository for the Arrow Columnar Format Tutorial at PyCon DE & PyData Berlin 2024.
 
@@ -14,22 +14,24 @@ To run this tutorial locally, follow those steps:
 
 **Install the necessary packages**
 
-For non conda setups we recommend to create a virtual environment.
-
-   cd 2024-arrow-format-tutorial
-   python -m venv .venv
-   source .venv/bin/activate
-
 The code examples require numpy, pyarrow and [nanoarrow](https://github.com/voltrondata-labs/2024-arrow-format-tutorial.git), and JupyterLab (or alternative) to run the notebooks. We need the latest (not-yet-released) version of nanoarrow, but you can install that using the nightly wheels:
 
     pip install jupyterlab numpy pyarrow
     pip install --extra-index-url https://pypi.fury.io/arrow-nightlies/ --pre nanoarrow
 
-You can also use conda/mamba:
+We recommend to create an environment, either with conda/mamba:
 
     conda create -n arrow-tutorial python numpy pyarrow jupyterlab
     conda activate arrow-tutorial
     python -m pip install --extra-index-url https://pypi.fury.io/arrow-nightlies/ --pre nanoarrow
+
+or create a virtual environment:
+
+    cd 2024-arrow-format-tutorial
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install jupyterlab numpy pyarrow
+    pip install --extra-index-url https://pypi.fury.io/arrow-nightlies/ --pre nanoarrow
 
 **Launch Jupyter**
 

@@ -4,7 +4,7 @@ Repository for the Arrow Columnar Format Tutorial at PyCon DE & PyData Berlin 20
 
 Apache Arrow has become a de-facto standard for efficient in-memory columnar data representation. You might have heard about Arrow or using Arrow, but do you understand the format and why it's so useful? This tutorial will dive deep into the details of the Arrow columnar format, the different types and buffer layouts, and explore those details interactively using the pyarrow and nanoarrow libraries.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/voltrondata-labs/2024-arrow-format-tutorial/HEAD?labpath=notebook.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/voltrondata-labs/2024-arrow-format-tutorial/HEAD?labpath=intro.ipynb)
 
 ## Setup
 
